@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  grid-gap: 30px;
+  height: 100vh;
+  grid-template-columns:
+    /* minmax(min-content, 1fr) */
+    /* minmax(max-content, 4fr) */
+    /* minimun value, max value */
+    /* mincontent = minimun value is how much space is taken up */
+    minmax(10%, 1fr)
+    minmax(100px, 4fr)
+}
+
+.box {
+  background-color: mediumpurple;
+}
